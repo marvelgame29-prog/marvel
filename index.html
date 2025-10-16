@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> "Administrasi Sistem Jaringan XII TKJ B"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #005599;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+		.identitas {
+		  background: linear-gradient(135deg, #e3f2fd, #ffffff);
+		  padding: 30px 10px;
+		  display: flex;
+		  justify-content: center;
+		  align-items: center;
+		  border-bottom: 2px solid #90caf9;
+		}
+
+		.identitas-container {
+		  display: flex;
+		  align-items: center;
+		  background-color: #fff;
+		  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+		  border-radius: 15px;
+		  padding: 20px 30px;
+		  max-width: 900px;
+		  width: 100%;
+		  gap: 25px;
+		}
+
+		.foto-saya {
+		  width: 150px;
+		  height: 150px;
+		  object-fit: cover;
+		  border-radius: 50%;
+		  border: 4px solid #2196f3;
+		  box-shadow: 0 0 15px rgba(33, 150, 243, 0.3);
+		}
+
+		.info-saya {
+		  font-family: Arial, sans-serif;
+		}
+
+		.info-saya h1 {
+		  margin: 0 0 10px;
+		  color: #0d47a1;
+		}
+
+		.info-saya p {
+		  margin: 5px 0;
+		  font-size: 16px;
+		  color: #333;
+		}
+
+		@media (max-width: 700px) {
+		  .identitas-container {
+		    flex-direction: column;
+		    text-align: center;
+		  }
+
+		  .foto-saya {
+		    width: 120px;
+		    height: 120px;
+		  }
+		}
+
+        }
+        img {
+            width: 300px;
+            height: 300px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        #pengantar img {
+        	width: 300px;
+        	height: 300px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Administrasi Sistem Jaringan XII TKJ B</h1>
+</header>
+
+<nav>
+    <a href="#identitas">Identitas Pribadi</a>
+    <a href="#controlpanel">Rangkuman Control Panel</a>
+    <a href="#pengantar">Pengantar Hosting</a>
+</nav>
+
+<section class="identitas">
+  <div class="identitas-container">
+    <img src="muka.jpeg" alt="Foto Saya" class="foto-saya">
+    <div class="info-saya">
+      <h1>Marvelino Ilham Leroy</h1>
+      <p><strong>Alamat:</strong> Jagakarsa</p>
+      <p><strong>Cita-cita:</strong> Membanggakan Orang Tua</p>
+      <p><strong>Hobi:</strong> Mendengar Lagu</p>
+    </div>
+  </div>
+</section>
+
+<section id="controlpanel">
+    <h2>Rangkuman Control Panel Hosting</h2>
+    <p>Control panel hosting adalah aplikasi online (berupa website yang diakses melalui program browser) yang berfungsi untuk mengatur akun hosting,seperti membuat akun email.</p>
+
+    <h3>Fitur Utama Control Panel:</h3>
+    <ul>
+        <li>File Manager (mengelola file website)</li>
+        <li>Database (mengelola database seperti MySQL)</li>
+        <li>Domain Management (menambah domain/subdomain)</li>
+        <li>Email Management (mengelola akun email)</li>
+        <li>FTP (mengupload file ke server hosting)</li>
+    </ul>
+
+    <h4>Manfaat C Panel</h4>
+    <ul>
+    	<li>1. Tidak Perlu Berpergian Jauh</li>
+    	<li>2. Bisa Mengetahui Spesifikasi Server Kita</li>
+    	<li>3. Mempermudah Pengelolaan Pada Web Server Kita</li>
+    </ul>
+
+    <img src="cp hosting.jfif" alt="Contoh Tampilan Control Panel Hosting">
+</section>
+<section id="pengantar">
+    <h2>Pengantar Hosting</h2>
+    <p>Hosting adalah layanan penyimpanan data dan file website agar bisa diakses melalui internet. Tanpa hosting, website tidak bisa diakses oleh pengguna secara online.</p>
+
+    <h3>Jenis-jenis Hosting:</h3>
+    <ul>
+        <li><strong>Shared Hosting:</strong> Satu server digunakan oleh banyak pengguna. Murah tapi terbatas.</li>
+        <li><strong>VPS (Virtual Private Server):</strong> Satu server dibagi secara virtual, lebih fleksibel dari shared hosting.</li>
+        <li><strong>Dedicated Server:</strong> Satu server penuh digunakan oleh satu pengguna.</li>
+        <li><strong>Cloud Hosting:</strong> Hosting berbasis cloud dengan skalabilitas tinggi.</li>
+    </ul>
+
+    <img src="web hosting.webp" alt="Jenis-Jenis Hosting">
+</section>
+
+<footer>
+    <p>&copy; 2025 XII TKJ B | Administrasi Sistem Jaringan</p>
+</footer>
+
+</body>
+</html>
